@@ -1,5 +1,5 @@
 {% set name = "popmon" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/popmon-{{ version }}.tar.gz
-  sha256: 50a0b5cac2a80d52d04b86ba9587dc9e15529c7ff45debf2c9dc64c4cc7b363e
+  sha256: 7ef618c269da56c7504435783f2155e0b4b95a8721b7bb5b0a34b4a4b487aa2b
 
 build:
   entry_points:
